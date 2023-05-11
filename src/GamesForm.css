@@ -1,0 +1,62 @@
+.GamesForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #1e1e1e;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f5f5f5;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  input[type="text"]:hover,
+  input[type="text"]:focus {
+    background-color: #e0e0e0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    outline: none;
+  }
+  button[type="submit"] {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1e90ff;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0d68a6;
+  }
+  
+  button[type="submit"]:not(:hover) {
+    background-color: #1e90ff;
+  }
+  

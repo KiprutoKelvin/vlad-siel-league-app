@@ -1,0 +1,32 @@
+.TransactionTable {
+    font-family: "Poppins", sans-serif;
+    color: grey;
+    background-color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: auto;
+    opacity: 60%;
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 10%;
+  }
+ 
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: blue;
+  color: white;
+  opacity: 90%;
+}
+
+td:not([style]) {
+  background-color: #F5F5F5;
+}
+td:hover {
+  background-color: filter(brightness(85%));
+}
+
